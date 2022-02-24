@@ -32,10 +32,6 @@ class Display{
         this.valorActual='';
         this.imprimirValores();
     }
-
-
-
-
     agregarNumero(numero){
         if(numero==='.'&&this.valorActual.includes('.')) return
         this.valorActual = this.valorActual.toString() + numero.toString();
